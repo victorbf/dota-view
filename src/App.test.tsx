@@ -22,7 +22,7 @@ describe('App routes', () => {
     )
 
     expect(screen.getByRole('heading', { name: 'Hero List' })).toBeInTheDocument()
-    expect(screen.getAllByRole('article')).toHaveLength(3)
+    expect(screen.getAllByRole('heading', { level: 2 })).toHaveLength(3)
     expect(screen.getByRole('heading', { name: 'Axe' })).toBeInTheDocument()
   })
 })

@@ -13,6 +13,8 @@ export function ListPage() {
             attributes={hero.attributes}
             description={hero.description}
             name={hero.name}
+            role={hero.role}
+            type={hero.type}
           />
         ))}
       </div>
