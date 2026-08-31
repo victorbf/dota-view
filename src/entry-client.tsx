@@ -9,7 +9,7 @@ import './index.css'
 const queryClient = new QueryClient()
 
 async function enableMocking() {
-  if (import.meta.env.DEV) {
+  if (import.meta.env.DEV && !import.meta.env.VITE_DISABLE_MSW) {
     const { worker } = await import('./mocks/browser')
     return worker.start({ onUnhandledRequest: 'bypass' })
   }

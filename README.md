@@ -18,9 +18,14 @@ Basic React + Vite + TypeScript app with:
 - `WelcomePage`: app landing page
 - `ListPage`: renders three mocked hero cards
 
+## API
+
+- `fetchHeroes()`: fetches and validates the hero list from `/api/heroes`
+
 ## Scripts
 
 - `npm run dev` - start development server
+- `npm run dev:no-mock` - start development server without MSW mock
 - `npm run build` - build client bundle
 - `npm run build:ssr` - build client + SSR bundle
 - `npm run lint` - run lint checks

@@ -10,7 +10,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "vitest",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "dev:no-mock": "VITE_DISABLE_MSW=true vite"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.102.8",
