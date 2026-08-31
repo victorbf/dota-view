@@ -21,6 +21,7 @@ Basic React + Vite + TypeScript app with:
 ## Scripts
 
 - `npm run dev` - start development server
+- `npm run dev:no-mock` - start development server without MSW mock
 - `npm run build` - build client bundle
 - `npm run build:ssr` - build client + SSR bundle
 - `npm run lint` - run lint checks
