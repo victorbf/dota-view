@@ -18,10 +18,6 @@ Basic React + Vite + TypeScript app with:
 - `WelcomePage`: app landing page
 - `ListPage`: renders three mocked hero cards
 
-## API
-
-- `fetchHeroes()`: fetches and validates the hero list from `/api/heroes`
-
 ## Scripts
 
 - `npm run dev` - start development server
